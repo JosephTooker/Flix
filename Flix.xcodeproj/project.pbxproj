@@ -20,6 +20,7 @@
 		B84612FC23FBA7E900F2AED7 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84612FB23FBA7E900F2AED7 /* MovieCell.swift */; };
 		B86C4DC32405F28900617115 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C4DC22405F28900617115 /* MovieGridViewController.swift */; };
 		B86C4DC52406117C00617115 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C4DC42406117C00617115 /* MovieGridCell.swift */; };
+		B86C4DC7240715A500617115 /* SuperheroMoviesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86C4DC6240715A500617115 /* SuperheroMoviesDetailsViewController.swift */; };
 		B8A93FA52401C119002FEA03 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A93FA42401C119002FEA03 /* MovieDetailsViewController.swift */; };
 		F072A23C8A23D1C33D1970AB /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AA943455FC32E650F903BB /* Pods_Flix.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		B84612FB23FBA7E900F2AED7 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		B86C4DC22405F28900617115 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		B86C4DC42406117C00617115 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		B86C4DC6240715A500617115 /* SuperheroMoviesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroMoviesDetailsViewController.swift; sourceTree = "<group>"; };
 		B8A93FA42401C119002FEA03 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		B8AA943455FC32E650F903BB /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59766ED616D4B4153A9A33D /* Pods_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +150,7 @@
 				B8A93FA42401C119002FEA03 /* MovieDetailsViewController.swift */,
 				B86C4DC22405F28900617115 /* MovieGridViewController.swift */,
 				B86C4DC42406117C00617115 /* MovieGridCell.swift */,
+				B86C4DC6240715A500617115 /* SuperheroMoviesDetailsViewController.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			files = (
 				B8A93FA52401C119002FEA03 /* MovieDetailsViewController.swift in Sources */,
 				B84612C823FB39E900F2AED7 /* AppDelegate.swift in Sources */,
+				B86C4DC7240715A500617115 /* SuperheroMoviesDetailsViewController.swift in Sources */,
 				B84612CA23FB39E900F2AED7 /* SceneDelegate.swift in Sources */,
 				B84612FC23FBA7E900F2AED7 /* MovieCell.swift in Sources */,
 				B84612FA23FB3FC500F2AED7 /* MoviesViewController.swift in Sources */,

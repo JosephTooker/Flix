@@ -14,6 +14,18 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
 
     @IBOutlet weak var collectionView: UICollectionView!
     
+    override func prepare (for segue: UIStoryboardSegue, sender: Any? )
+    {
+        print("Loading up the details screen")
+        
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        let detailsViewController = segue.destination as! SuperheroMoviesDetailsViewController
+        detailsViewController.movie = movie
+    }
+    
     var movies = [[String:Any]]()
     
     override func viewDidLoad() {
